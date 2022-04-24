@@ -3,7 +3,7 @@
 
 #include "framework.h"
 #include "Cdialog01.h"
-
+//메모
 
 
 // 전역 변수:
