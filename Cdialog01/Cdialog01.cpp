@@ -5,7 +5,6 @@
 #include "Cdialog01.h"
 //메모
 
-
 // 전역 변수:
 HINSTANCE hInst;                                // 현재 인스턴스입니다.
 
@@ -16,6 +15,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
                      _In_ LPWSTR    lpCmdLine,
                      _In_ int       nCmdShow)
 {
+    
     DialogBox(hInstance, MAKEINTRESOURCE(IDD_DIALOG1),NULL, Dlgproc);
     return 0;
 }
