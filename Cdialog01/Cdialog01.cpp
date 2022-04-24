@@ -3,7 +3,7 @@
 
 #include "framework.h"
 #include "Cdialog01.h"
-//메모ggggg
+//메모
 
 // 전역 변수:
 HINSTANCE hInst;                                // 현재 인스턴스입니다.
