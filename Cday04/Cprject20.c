@@ -1,21 +1,21 @@
 #include <stdio.h>
 
 
-void main111() {
+void main1() {
 
 	// 제어문 : 조건문, 반복문
 	// 반복 횟수를 지정하기 위해서 플래그가 필요
 
 	int i = 0;
-	char a[] = "hello world";
+	char a[12] = "hello world";
 	//while(i < 5){
 	
 	for (i = 0; i < 5; i++){
-		if (i == 3) {
+		if (i == 5) {
 			break;
 		}
 		
-		printf("%s\n",a);
+		printf("\n %d번 %s\n",i, a);
 	
 	
 	}

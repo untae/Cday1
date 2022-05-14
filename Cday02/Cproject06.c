@@ -1,6 +1,6 @@
 #include <stdio.h>    //std : standard   , io : input  & output
 
-void main2() {
+void main() {
 	/*
 	연산 ==  계산
 	연산자 == 계산하기 위한 기호
@@ -31,7 +31,7 @@ void main2() {
 	int ampersand = num1 % num2;   // 나머지
 
 
-	printf("%d\n%d\n%d\n%f\n", sum, sub, mul, div);
+	printf("%d\n%d\n%d\n%2f\n%d\n", sum, sub, mul, div, ampersand);
 	//printf(" % d\n", sum);
 	//printf(" % d\n", sub);
 	//printf(" % d\n", mul);

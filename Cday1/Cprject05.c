@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-void main() {
+void main11() {
 
 	int num;
 	float num1;

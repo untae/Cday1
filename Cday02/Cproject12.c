@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() {
+void main12() {
 
 	// 조건 연산자
 	// (3 > 1) ? printf("ok") : printf("no");

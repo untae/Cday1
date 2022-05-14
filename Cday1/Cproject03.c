@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main3() {
+void main() {
 	// printf("Hello");
 	/*
 	여러줄 주석
@@ -15,7 +15,7 @@ void main3() {
 	int : 4byte (-21억 ~ 21억)				: 소수점 없는 숫자(정수)
 	long long : 8byte
 	float : 4byte								: 소수점 있는 숫자(숫자)
-	double : 8byte
+	double : 8byte       ==> %lf
 
 	C 언어 : 옛날 컴퓨터가 아주 성능이 나쁘고 용량이 작을 때 만들어진 언어
 
@@ -30,7 +30,7 @@ void main3() {
 
 	char var1 = 'a';  //1byte 공간에 a 라는 문자를 저장
 	int var2 = 3;		//4byte 공간에 3 라는 숫자를 저장
-	float var3 = 3.3;	//4byte 공간에 3.3 라는 숫자를 저장
+	float var3 = 3.3f;	//4byte 공간에 3.3 라는 숫자를 저장
 	printf("숫자는 %d!\n", var2);		// 숫자는 변수명 d		-  정해진 약속
 	printf("문자는 %c!\n", var1);		// 문자는 변수명 c		-  정해진 약속
 	printf("실수는 %f!\n", var3);		// 실수는 변수명 f		-  정해진 약속
@@ -42,7 +42,7 @@ void main3() {
 	// 자료형 변수명;
 
 	int num;				// 변수 선언
-	num = 5;			// 대입(집어 넣음)
+	num = 5;			// 대입(집어 넣음)   //오른쪽에 있는 값을 왼쪽에 넣어주세요
 	num = 8;
 	num = 1;
 	printf("%d", num);
