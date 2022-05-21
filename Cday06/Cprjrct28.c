@@ -6,7 +6,7 @@ void print2(int *num) {
 
 }
 
-int main() {
+int main28() {
 	int num = 10;
 	int* pNum = &num;   // 포인터 변수 만들겠다
 	
